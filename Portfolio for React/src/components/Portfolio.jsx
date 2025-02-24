@@ -1,8 +1,10 @@
+import React from 'react';
+
 export default function Portfolio() {
     const projects = [
-      { title: "", link: "", repo: "" },
-      { title: "", link: "", repo: "" },
-
+      { title: "Employee Tracker", repo: "https://github.com/Rilsotea/Employee-Tracker"},
+      { title: "Vehicle Creation and Driving", repo: "https://github.com/Rilsotea/Vehicle-Creator-Testing"},
+      { title: "ReadME Generator", repo: "https://github.com/Rilsotea/README-maker"},
     ];
   
     return (
@@ -11,13 +13,12 @@ export default function Portfolio() {
         <div className="portfolio-grid">
           {projects.map((project, index) => (
             <div key={index} className="portfolio-item">
-              <img src={project.img} alt={project.title} />
               <h3>{project.title}</h3>
-              <a href={project.link} target="" rel="">Live Demo</a>
-              <a href={project.repo} target="" rel="">GitHub Repo</a>
+              <a href={project.link}></a>
+              <a href={project.repo}>GitHub Repo</a>
             </div>
           ))}
         </div>
       </section>
     );
-  }
+}
