@@ -1,29 +1,8 @@
-# React Portfolio
+# React + Vite
 
-## Description
-This is a portfolio created using React. It is a single page application that showcases my work and provides a way to contact me. The portfolio is responsive and can be viewed on any device.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-## Installation
-No installation is required. Can be accsed by clicking the following link [https://zachreact.netlify.app/]
-
-## Usage
-The portfolio can be viewed by clicking the following link [https://zachreact.netlify.app/]. The portfolio is a single page application that showcases my work and provides a way to contact me. 
-## License
-No license required.
-
-## Contributing
-No contributions required.
-
-## Tests
-No tests required.
-
-## Questions
-any questions contact me at my github profile [https://github.com/Rilsotea]
-
-## Contact
-For any questions or concerns reach out to me at my github profile [https://github.com/Rilsotea]
-
-## Credits
-This application was created by Rilsotea
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
