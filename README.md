@@ -1,4 +1,6 @@
 # Portfolio Reacts
+![image](https://github.com/user-attachments/assets/3cbe5d0f-545d-4997-915e-cba22c47e18d)
+
 ## Description
 This repository contains my professional portfolio built with React. It highlights my skills and projects, providing a detailed overview of my work and capabilities in web development.
 
