@@ -1,11 +1,10 @@
 import React from 'react';
+import '../styles/PageStyles.css';
 
 function Resume() {
   const personalInfo = {
     name: "Zacharia Owen",
-    email: "youremail@example.com",
-    phone: "(###) ###-####",
-    github: "https://github.com/Rilsotea"
+    github: "https://github.com/Zacharia-Owen/"
   };
 
   const skills = [
@@ -52,11 +51,8 @@ function Resume() {
   ];
 
   return (
-    <section>
+    <section className="resume-page">
       <h1>{personalInfo.name}</h1>
-      <p>Email: <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a></p>
-      <p>Phone: {personalInfo.phone}</p>
-      <p>LinkedIn: <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">{personalInfo.linkedin}</a></p>
       <p>GitHub: <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">{personalInfo.github}</a></p>
 
       <h2>Skills</h2>

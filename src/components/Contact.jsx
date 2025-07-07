@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/PageStyles.css';
 
 function ContactMe() {
   const [formData, setFormData] = useState({
@@ -26,7 +27,7 @@ function ContactMe() {
   };
 
   return (
-    <section>
+    <section className="contact-page">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div>

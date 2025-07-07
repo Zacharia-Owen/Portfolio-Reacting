@@ -1,0 +1,209 @@
+/* About Page Styles Starts*/
+.about-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-right: 1000px;
+  margin-left: 1000px;
+}
+
+.about-page h1 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.about-page h2 {
+  color: #c7c7c7;
+  font-size: 1.8em;
+}
+
+.about-page li {
+  color: #b1b1b1;
+  line-height: 1.5;
+}
+
+.about-page p {
+  color: #b1b1b1;
+  line-height: 1.6;
+}
+/* About Page Styles Ends*/
+
+/* Contact Page Styles Starts*/
+.contact-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-right: 1000px;
+  margin-left: 1000px;
+}
+
+.contact-page h1 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.contact-page p {
+  color: #b1b1b1;
+  line-height: 1.6;
+}
+
+.contact-page form {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-page form input,
+.contact-page form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact-page form input[type="submit"] {
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-page form input[type="submit"]:hover {
+  background-color: #21a1f1;
+}
+
+.contact-page form input[type="submit"]:active {
+  background-color: #1e90ff;
+}
+
+/* Contact Page Styles Ends*/
+
+/* Portfolio Page Styles Starts */
+.portfolio-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-right: 1000px;
+  margin-left: 1000px;
+}
+
+.portfolio-page h2 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.portfolio-page div.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.portfolio-page p {
+  color: #b1b1b1;
+  line-height: 1.6;
+}
+
+.portfolio-page image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+ .portfolio-page a {
+  color: #215bc7;
+  text-decoration: none;
+}
+
+.portfolio-page a:hover {
+  text-decoration: underline;
+}
+
+/* Portfolio Page Styles Ends */
+
+/* Resume Page Styles Starts */
+.resume-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-right: 1000px;
+  margin-left: 1000px;
+}
+.resume-page h1 {
+  color: #ffffff;
+  font-size: 2em;
+}
+.resume-page h2 {
+  color: #c7c7c7;
+  font-size: 1.8em;
+}
+.resume-page p {
+  color: #b1b1b1;
+  line-height: 1.6;
+}
+.resume-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+.resume-page li {
+  color: #b1b1b1;
+  line-height: 1.5;
+}
+/* Resume Page Styles Ends */
+
+/* Footer Styles Start*/
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Footer Styles Ends*/
+
+/* Header Styles Starts*/
+.header {
+  background-color: #20232a;
+  color: #61dafb;
+  padding: 10px 20px;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.header nav {
+  margin-top: 10px;
+}
+.header nav a {
+  color: #61dafb;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.header nav a:hover {
+  text-decoration: underline;
+}
+/* Header Styles Ends*/
+
+/* Button Styles Starts*/
+.button {
+  background-color: #61dafb;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #21a1f1;
+}
+.button:active {
+  background-color: #1e90ff;
+}
+/* Button Styles Ends*/
