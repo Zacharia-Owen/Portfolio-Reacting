@@ -18,36 +18,42 @@ function Resume() {
 
   const experience = [
     {
-      jobTitle: "Software Developer",
-      company: "Example Tech Company",
-      location: "Example, Example",
-      dates: "Jan 2022 - Present",
+      jobTitle: "Back End Developer",
+      company: "JamJar Tech",
+      location: "OSU Bootcamp, Remote",
+      dates: "April 2025 - 2025",
       responsibilities: [
-        "Developed web applications using React and Node.js.",
-        "Collaborated with cross-functional teams to define, design, and ship new features.",
-        "Participated in code reviews and provided constructive feedback."
+        "Developed RESTful APIs using Node.js and Express.",
+        "Implemented database schemas and queries using MongoDB.",
+        "Collaborated with front-end developers to integrate user interfaces."
       ]
     },
     {
-      jobTitle: "Intern Developer",
-      company: "Another Tech Example",
-      location: "Example, State",
-      dates: "Jun 2021 - Dec 2021",
+      jobTitle: "Back End Developer",
+      company: "Golf Course Tracker Corp",
+      location: "OSU Bootcamp, Remote",
+      dates: "March 2025 - March 2025",
       responsibilities: [
-        "Assisted in the development of user interfaces using React.",
-        "Wrote unit tests to ensure code quality.",
-        "Participated in daily stand-ups and agile ceremonies."
+        "Designed and implemented back-end services for a golf course management application.",
+        "Collaborated with front-end developers to integrate APIs."
       ]
     }
   ];
 
   const education = [
     {
-      degree: "Exaample Degree",
-      school: "Example University",
-      location: "Example, Example",
-      graduationDate: "May 2021"
+      degree: "High School Diploma",
+      school: "Dover High School",
+      location: "Dover, DE",
+      graduationDate: "May 2012"
+    },
+    {
+      Certificate: "OSU Full Stack Flex Coding Bootcamp",
+      school: "Ohio State University",
+      location: "Ohio, Remote",
+      graduationDate: "May 2025"
     }
+
   ];
 
   return (
@@ -78,7 +84,7 @@ function Resume() {
       <h2>Education</h2>
       {education.map((edu, index) => (
         <div key={index}>
-          <h3>{edu.degree}</h3>
+          <p>{edu.degree}</p>
           <p>{edu.school} | {edu.location} | Graduated: {edu.graduationDate}</p>
         </div>
       ))}
